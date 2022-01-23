@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fname: Fname
+  pname:
+  lname: Lname
+  nickname:
+  email:
+  password:
+  password_confirm:
+  cabinet:
+
+two:
+  fname: Fname
+  pname: Pname
+  lname: Lname
+  nickname:
+  email:
+  password:
+  password_confirm:
+  cabinet:
+
+three:
+  fname: Fname
+  pname: Pname
+  lname: Lname
+  nickname:
+  email:
+  password:
+  password_confirm:
+  cabinet: one

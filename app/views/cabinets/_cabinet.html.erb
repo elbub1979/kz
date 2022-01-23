@@ -1,0 +1,8 @@
+<div>
+  <tr>
+    <td><%= cabinet.number %></td>
+    <% cabinet.users.each do |user| %>
+      <td><%= user.full_name %></td>
+    <% end %>
+  </tr>
+</div>
