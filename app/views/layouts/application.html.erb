@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Типография АО "Красная Звезда"</title>
+    <%= favicon_link_tag 'logo_min.svg' %>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <div class="menu" style="text-align: center;">
+    <table cellspacing="0" cellpadding="0" class="table-menu">
+      <tr>
+        <td>
+          <%= link_to 'Home', root_path %>
+        </td>
+        <td>
+          <%= link_to 'Phones', phones_path %>
+        </td>
+        <td>
+          <%=  link_to 'About', '/' %>
+        </td>
+        <td onclick="document.location='3-printers.html'">Принтеры</td>
+        <td onclick="document.location='4-cameras.html'">IP-видеокамеры</td>
+        <td onclick="document.location='5-video.html'">Видеорегистраторы</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <header>
+    </header>
+  </div>
+    <%= yield %>
+  </body>
+</html>
