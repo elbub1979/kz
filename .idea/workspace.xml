@@ -1,67 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8973213d-4038-423d-888a-895a160146c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/logo_min.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/noise_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/cabinets.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/phones.css.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/cabinets_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/operators_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/phones_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/cabinets_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/main_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cabinet.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/department.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/operator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/phone.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/position.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cabinets/_cabinet.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cabinets/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/phones/_phone.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/phones/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/_user.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20211206200000_create_operators.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220113175930_create_cabinets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220114191839_create_phones.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220114192552_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220122190524_create_positions.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220122190607_create_departments.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220122190709_add_position_to_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220122190734_add_department_to_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220122193652_add_user_to_phones.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/cabinets_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/main_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/cabinets.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/departments.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/operators.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/phones.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/positions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/cabinet_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/department_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/operator_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/phone_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/position_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
+    <list default="true" id="8973213d-4038-423d-888a-895a160146c4" name="Changes" comment="23.01.2022">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,8 +298,23 @@
       <workItem from="1642273497526" duration="16648000" />
       <workItem from="1642448973395" duration="6463000" />
       <workItem from="1642536358196" duration="18085000" />
-      <workItem from="1642954682855" duration="642000" />
+      <workItem from="1642954682855" duration="1263000" />
     </task>
+    <task id="LOCAL-00001" summary="23.01.2022">
+      <created>1642955443628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642955443628</updated>
+    </task>
+    <task id="LOCAL-00002" summary="23.01.2022">
+      <created>1642955474200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642955474200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +334,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="23.01.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.01.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
