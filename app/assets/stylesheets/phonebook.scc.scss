@@ -1,0 +1,20 @@
+// Place all the styles related to the phonebook controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.phone_book {
+  table {
+    border: 1px solid black;
+    width: 80%;
+    border-spacing: 3px;
+    th {
+      border: 1px solid black;
+      text-align-all: center;
+    }
+    tr td {
+      border: 1px solid black;
+    }
+    td {
+      padding: 10px;
+    }
+  }
+}

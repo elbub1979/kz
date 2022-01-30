@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_22_193652) do
+ActiveRecord::Schema.define(version: 2022_01_28_181834) do
 
   create_table "cabinets", force: :cascade do |t|
     t.string "number"
@@ -24,20 +24,28 @@ ActiveRecord::Schema.define(version: 2022_01_22_193652) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "operators", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "phones", force: :cascade do |t|
+  create_table "internal_phones", force: :cascade do |t|
     t.string "number"
     t.integer "operator_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
-    t.index ["operator_id"], name: "index_phones_on_operator_id"
-    t.index ["user_id"], name: "index_phones_on_user_id"
+    t.index ["user_id"], name: "index_internal_phones_on_user_id"
+  end
+
+  create_table "mobile_phones", force: :cascade do |t|
+    t.string "number"
+    t.integer "operator_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_mobile_phones_on_user_id"
+  end
+
+  create_table "operators", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "positions", force: :cascade do |t|
@@ -64,8 +72,8 @@ ActiveRecord::Schema.define(version: 2022_01_22_193652) do
     t.index ["position_id"], name: "index_users_on_position_id"
   end
 
-  add_foreign_key "phones", "operators"
-  add_foreign_key "phones", "users"
+  add_foreign_key "internal_phones", "users"
+  add_foreign_key "mobile_phones", "users"
   add_foreign_key "users", "cabinets"
   add_foreign_key "users", "departments"
   add_foreign_key "users", "positions"

@@ -1,0 +1,31 @@
+<div class="phone_book">
+  <table>
+    <tr>
+      <th colspan="6">Телефонная книга</th>
+    </tr>
+    <tr>
+      <th>ФИО</th>
+      <th>Должность</th>
+      <th>Отдел</th>
+      <th>Мобильный</th>
+      <th>Внутренний</th>
+    </tr>
+    <% @phonebook.each do |phone_line| %>
+    <tr>
+      <td><%= phone_line.full_name %></td>
+      <td><%= phone_line.position.title %></td>
+      <td><%= phone_line.department.title %></td>
+      <td>
+      <% phone_line.mobile_phones.each do |phone| %>
+        <%= phone.number %><br>
+      <% end %>
+      </td>
+      <td>
+        <% phone_line.internal_phones.each do |phone| %>
+          <%= phone.number %><br>
+        <% end %>
+      </td>
+    </tr>
+    <% end %>
+  </table>
+</div>

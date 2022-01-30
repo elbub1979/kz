@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+wb = xlsx_package.workbook
+bold     = { b: true }
+centered = { alignment: { horizontal: :center } }
+wb.add_worksheet(name: 'Phone_book') do |sheet|
+  # sheet.add_style 'A1:D1', bold, centered
+  sheet.add_row %w[ФИО Мобильный Внутренний]
+  sheet.add_style 'A1:C1', bold, centered
+  @phone_book.each do |user|
+    sheet.add_row [user.full_name, user.all_mobile_phones, user.all_internal_phones]
+  end
+end

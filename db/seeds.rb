@@ -8,8 +8,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Очищаем таблицу Phones
-Phone.destroy_all
+# Очищаем таблицу mobile phones
+MobilePhone.destroy_all
+# Очищаем таблицу internal phone
+InternalPhone.destroy_all
 # Очищаем таблицу Users
 User.destroy_all
 # Очищаем таблицу Operators
@@ -29,12 +31,15 @@ Operator.create([{ name: 'internal' }])
 
 # Заполняем базу кабинетов
 Cabinet.create(number: '514')
+Cabinet.create(number: '515')
 
 # Заполняем базу должностей
 Position.create(title: 'Начальник отдела')
+Position.create(title: 'Главный специалист')
 
 # Заполняем базу подразделений
 Department.create(title: 'Отдел информационных технологий')
+Department.create(title: 'Служба главного инженера')
 
 
 # Заполняем базу пользователями
@@ -43,11 +48,19 @@ User.create(fname: 'Илья', pname: 'Алекандрович', lname: 'Леу
             cabinet: Cabinet.find_by(number: '514'),
             position: Position.find_by(title: 'Начальник отдела'),
             department: Department.find_by(title: 'Отдел информационных технологий'))
+User.create(fname: 'Михаил', pname: 'Иванович', lname: 'Полищук',
+            email: 'm.polischuk@redstar.ru',
+            cabinet: Cabinet.find_by(number: '515'),
+            position: Position.find_by(title: 'Главный специалист'),
+            department: Department.find_by(title: 'Служба главного инженера'))
 
 # Заполняем базу телефонами
-Phone.create(number: '79855101910', operator: Operator.find_by(name: 'MTS'),
-             user: User.find_by(email: 'i.leushkin@redstar.ru'))
-Phone.create(number: '79680622979', operator: Operator.find_by(name: 'Beeline'),
-             user: User.find_by(email: 'i.leushkin@redstar.ru'))
-Phone.create(number: '111', operator: Operator.find_by(name: 'internal'),
-             user: User.find_by(email: 'i.leushkin@redstar.ru'))
+MobilePhone.create(number: '79855101910', operator: Operator.find_by(name: 'MTS'),
+                   user: User.find_by(email: 'i.leushkin@redstar.ru'))
+MobilePhone.create(number: '79680622979', operator: Operator.find_by(name: 'Beeline'),
+                   user: User.find_by(email: 'i.leushkin@redstar.ru'))
+InternalPhone.create(number: '111', operator: Operator.find_by(name: 'internal'),
+                     user: User.find_by(email: 'i.leushkin@redstar.ru'))
+
+MobilePhone.create(number: '79168456844', operator: Operator.find_by(name: 'MTS'),
+                   user: User.find_by(email: 'm.polischuk@redstar.ru'))
