@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8973213d-4038-423d-888a-895a160146c4" name="Changes" comment="23.01.2022">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/phonebook.scc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/phonebook_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/phonebook_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/internal_phone.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/mobile_phone.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/phonebook/export_to_excel.xlsx.axlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/phonebook/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220128180113_create_mobile_phones.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220128180122_create_internal_phones.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220128181118_add_user_to_mobile_phone.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220128181834_add_user_to_internal_phone.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/phonebook_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/internal_phones.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/mobile_phones.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/internal_phone_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/mobile_phone_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef37b8d4-5a4c-4d08-a741-8b2c0b6e964d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef37b8d4-5a4c-4d08-a741-8b2c0b6e964d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kz.iml" afterDir="false" />
+    <list default="true" id="8973213d-4038-423d-888a-895a160146c4" name="Changes" comment="30.01.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/phones_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/operator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/operator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/phone.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/phonebook.scc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/phonebook.scc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/phones/_phone.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/phones/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220114191839_create_phones.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220122193652_add_user_to_phones.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/phones.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/phone_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/phonebook/export_to_excel.xlsx.axlsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/phonebook/export_to_excel.xlsx.axlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/phonebook/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/phonebook/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,7 +480,7 @@
       <workItem from="1643052009218" duration="612000" />
       <workItem from="1643052642931" duration="238000" />
       <workItem from="1643052902816" duration="2533000" />
-      <workItem from="1643129134500" duration="31039000" />
+      <workItem from="1643129134500" duration="40222000" />
     </task>
     <task id="LOCAL-00001" summary="23.01.2022">
       <created>1642955443628</created>
@@ -526,7 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642955474200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="30.01.2022">
+      <created>1643564190297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643564190297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="30.01.2022">
+      <created>1643564216439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643564216439</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +530,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="23.01.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.01.2022" />
+    <MESSAGE value="30.01.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.01.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,12 +544,32 @@
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/user.rb</url>
+          <line>23</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/views/phonebook/index.html.erb</url>
+          <line>21</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
-        <watch expression="phone.number" />
-        <watch expression="&quot;#{acc} #{phone.number}&quot;" />
+        <watch expression="arr.join('&lt;br&gt;')" />
+        <watch expression="phone_line.all_internal_phones" language="RHTML" />
+        <watch expression="internal_phones.map(&amp;:number).join(&quot;\n&quot;)" />
+        <watch expression="phone_line.all_internal_phones" />
+        <watch expression="phone_line.all_internal_phones.gsub(&quot;\n&quot;,&quot;&lt;br&gt;&quot;)" />
+        <watch expression="phone_line.all_internal_phones.gsub(&quot;\n&quot;,&quot;&lt;br&gt;&quot;).html_safe" />
       </configuration>
     </watches-manager>
   </component>
@@ -573,6 +578,6 @@
     <SUITE FILE_PATH="coverage/kz@test_should_add_zero_for_number_if_number_length_less_100.rcov" NAME="test_should_add_zero_for_number_if_number_length_less_100 Coverage Results" MODIFIED="1642535648657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kz" />
     <SUITE FILE_PATH="coverage/kz@seeds.rcov" NAME="seeds Coverage Results" MODIFIED="1638906704752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" MODULE_NAME="kz" />
     <SUITE FILE_PATH="coverage/kz@test_should_not_create_new_Cabinet_without_number.rcov" NAME="test_should_not_create_new_Cabinet_without_number Coverage Results" MODIFIED="1643053195164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kz" />
-    <SUITE FILE_PATH="coverage/kz@Development__kz.rcov" NAME="Development: kz Coverage Results" MODIFIED="1643564118385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kz" />
+    <SUITE FILE_PATH="coverage/kz@Development__kz.rcov" NAME="Development: kz Coverage Results" MODIFIED="1643833491599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kz" />
   </component>
 </project>

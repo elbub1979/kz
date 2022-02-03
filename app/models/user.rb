@@ -13,7 +13,11 @@ class User < ApplicationRecord
   before_save :down_case
 
   def all_mobile_phones
-    mobile_phones.map(&:number).join("\n")
+    # mobile_phones.map(&:number).join("\n")
+    arr = mobile_phones.each_with_object([]) do |obj, accum|
+      accum << obj.number
+    end
+    arr.join("\n").html_safe
   end
 
   def all_internal_phones

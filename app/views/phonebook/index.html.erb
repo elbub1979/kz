@@ -16,14 +16,10 @@
       <td><%= phone_line.position.title %></td>
       <td><%= phone_line.department.title %></td>
       <td>
-      <% phone_line.mobile_phones.each do |phone| %>
-        <%= phone.number %><br>
-      <% end %>
+        <%= phone_line.all_mobile_phones.gsub("\n","<br>").html_safe %>
       </td>
       <td>
-        <% phone_line.internal_phones.each do |phone| %>
-          <%= phone.number %><br>
-        <% end %>
+        <%= phone_line.all_internal_phones.gsub("\n","<br>").html_safe %>
       </td>
     </tr>
     <% end %>
